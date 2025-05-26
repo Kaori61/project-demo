@@ -47,7 +47,7 @@
 * How did you structure the data analysis techniques. Justify your response.
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
-
+* Tried to create a pair plot using entire dataset to find any patterns before addressing hypothesis but it kept giving me errors. To address the issue, I picked few columns of interest and created a dataset then created a pair plot showing multiple variable relationships. 
 ## Ethical considerations
 * Were there any data privacy, bias or fairness issues with the data?
 * How did you overcome any legal or societal issues?
