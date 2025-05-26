@@ -22,9 +22,11 @@
    * Create a histgram to visualise total transaction amount for attrited and exisiting customers.     
 
 
-3. Customers with higher total revolving balances are less likely to churn.
-   * Create a box plot to compare total revolving balance for attited customers and exsisting customers
+3. Customers with lower total revolving balances are likely to churn.
+   * Create a box plot to compare total revolving balance for attited customers and exsisting customers.
 
+4. To further explore hypothesis 3 - Customer with lower total revolving balance AND lower credit limit are likely to churn
+   *  Create a scatter plot to see the relationship between those two variables.
  
 
 ## Project Plan
