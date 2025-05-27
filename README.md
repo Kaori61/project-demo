@@ -1,8 +1,10 @@
+
+<img align="right" width="200" height="100" src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"> 
+
 # Credit Card Attrition Analysis
 
 **Credit Card Attrition Analysis** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
@@ -31,15 +33,14 @@
 
 ## Project Plan
 * Data collection
-* Data Cleaning
+* Data Cleaning  
 * Data Analysis
 * Hypothesis Testing
 * Insight generation
 * Reporting
 
+I chose these methods to follow a logical step by step approach. Started with data collection to gather relevant information, data cleaning to handle any incinsistency in the data and prepared for analysis. Analysed data to explore patterns then tested hypothesis to validate assumptions. Generated insight based on the results. By following these steps, I could understand the dataset better and generate insights based on the findings.
 
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
@@ -54,7 +55,8 @@
 * The data was anonymised. Ethical consideration was addressed with this project.
 
 ## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
+* I tried to creat a plot with plotly but 
+Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
 * Did you recognise gaps in your knowledge, and how did you address them?
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
@@ -69,7 +71,7 @@ In the next project, I would like to use more statistics in my analysis for my n
 
 ## Main Data Analysis Libraries
 * Pandas to load and clean data
-* Numpy to perform calculation (.sum())
+* Numpy to perform calculation 
 * Seaborn to create visualisation
 * Matplotlib to visualise the created plots
 * Plotly to create interactive plot
@@ -79,16 +81,9 @@ In the next project, I would like to use more statistics in my analysis for my n
 
 * I got visualisation idea from here - [From Data to Viz](https://www.data-to-viz.com/#network).  Helped me decide which plot to make to visualise dataset.
 * Checked the code with [seaborn](https://seaborn.pydata.org/index.html#).
-* When I encountered errors and needed a guidance, I used [ChatGPT](https://chatgpt.com/)
+* When I encountered errors and needed a guidance, I used [ChatGPT](https://chatgpt.com/), [W3Schools](https://www.w3schools.com/), [GeeksforGeeks](https://www.geeksforgeeks.org/)
+* Checked this page to know how to align image to the right in README [DavidWells](https://gist.github.com/DavidWells/7d2e0e1bc78f4ac59a123ddf8b74932d)
 
- In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
 
