@@ -19,7 +19,7 @@
    * Create a bar chart of churn rate by card category.
 
 2. The lower the total transaction amount, the higher their likelihood of churning.
-   * Create a histgram to visualise total transaction amount for attrited and exisiting customers.     
+   * Create a histogram to visualise total transaction amount for attrited and exisiting customers.     
 
 
 3. Customers with lower total revolving balances are likely to churn.
@@ -51,14 +51,7 @@
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 * Tried to create a pair plot using entire dataset to find any patterns before addressing hypothesis but it kept giving me errors. To address the issue, I picked few columns of interest and created a dataset then created a pair plot showing multiple variable relationships. 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
-
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+* The data was anonymised. Ethical consideration was addressed with this project.
 
 ## Unfixed Bugs
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
@@ -66,31 +59,29 @@
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+The chanlleges I faced 
+- Creating project plan - I wasn't sure where to start so I just dived in before planning much which was not a great idea. I have a little more understanding of what needs to be done so next project, I will plan better and document more as I go. 
+- Error and trial - I had many errors and google, chatGPT was a gret help to understand what I did wrong. I should have documented more of my error. 
 
-## Deployment
-### Heroku
+In the next project, I would like to use more statistics in my analysis for my next project. I am not confident in using statistical methods so I chose not to apply in this project but I am interested in and would like to have deeper understandings.
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* Pandas to load and clean data
+* Numpy to perform calculation (.sum())
+* Seaborn to create visualisation
+* Matplotlib to visualise the created plots
+* Plotly to create interactive plot
 
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+* I got visualisation idea from here - [From Data to Viz](https://www.data-to-viz.com/#network).  Helped me decide which plot to make to visualise dataset.
+* Checked the code with [seaborn](https://seaborn.pydata.org/index.html#).
+* When I encountered errors and needed a guidance, I used [ChatGPT](https://chatgpt.com/)
+
+ In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 * You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
@@ -99,12 +90,11 @@
 - Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
 
 
-
-## Acknowledgements (optional)
-* Thank the people who provided support through this proj
+## Acknowledgements
+Thanks to all my tutors. I’ve really been enjoying the course so far, and your support has helped me complete this project.
+* Emma Lamont - Very supportive course facilitator. Thank you for your support and I am greatful to be looked after.
+* John  Rearden - Thank you for great sessions to explain complex consepts clearly. 
+* Mark Briscoe - Thank you for your humour and relaxed teaching style. It made the learning environment more enjoyable.
+* Niel McEwen - Thank you for making course material easy to follow and quick response for my query.
