@@ -56,6 +56,7 @@ I assumed that generating actionable insights would require more advanced analys
 * The data was anonymised. Ethical consideration was addressed with this project.
 
 ## Unfixed Bugs
+
 I tried to create a plot using Plotly, but something wasn’t working properly on my computer. Neil was very helpful and tried to assist, but we couldn’t figure out the cause of the issue. I uninstalled `nbformat` version 5.10.4 and installed version 4.2.0 instead. Even though the terminal confirmed that version 4.2.0 was installed, I continued to receive the same error message.
 
  ![Bug1](ScreenshotBug.png)
@@ -64,9 +65,9 @@ I tried to create a plot using Plotly, but something wasn’t working properly o
 I uninstalled and reinstalled requirements.txt, and also ran `pip install ipython` as Neil suggested. However, the issue persisted, insted of `ValueError`, it is showing `alueError` as shown in the image below.
 ![Bug2](ScreenshotBug2.png)
 
-Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+
+* I wanted to create interactive visualisation but could not so I decided to create it with Seaborn instead of Plotly so that I could still find a useful insight from it.
+
 
 ## Development Roadmap
 The chanlleges I faced 
