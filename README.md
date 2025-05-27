@@ -8,7 +8,7 @@
 
 
 ## Dataset Content
-* The dataset consist of 10,000 customers' age, salary, marital status, credit card limit, credit card category, etc. The dataset is available from [Credit Card customers](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data)
+The dataset consist of 10,000 customers' age, salary, marital status, credit card limit, credit card category, etc. The dataset is available from [Credit Card customers](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data)
 
 
 ## Business Requirements
@@ -43,7 +43,8 @@ I chose these methods to follow a logical step by step approach. Started with da
 
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* The bank wants to know who are likely to churn and prevent from churning. 
+I assumed that generating actionable insights would require more advanced analysis than I could currently perform, so I focused on identifying obvious patterns and filtering out assumptions in preparation for the next step.
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
